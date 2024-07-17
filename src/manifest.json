@@ -1,8 +1,8 @@
 {
-  "name": "Markdown Diagrams",
-  "description": "Render PlantUML, Mermaid and others graph/diagrams on webpages.",
-  "version": "1.21",
-  "manifest_version": 2,
+  "name": "Markdown Diagrams(CP)",
+  "description": "It's a copy of Markdown Diagrams(https://github.com/marcozaccari/markdown-diagrams-browser-extension),I modified it for my usage",
+  "version": "0.1",
+  "manifest_version": 1,
   
   "permissions": [
     "storage",
@@ -29,7 +29,7 @@
 
   "browser_action": {
     "default_icon" : "images/icon128.png",
-    "default_title": "Markdown Diagrams"
+    "default_title": "Markdown Diagrams(CP)"
   },
 
   "content_scripts": [
