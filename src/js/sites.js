@@ -65,7 +65,7 @@ var siteProfiles = {
         code = child.textContent;
         lang = detectDiagramLanguageByElement(child, false);
       } else code = el.textContent;
-
+	  if (!lang) lang = detectDiagramLanguageByElement(el);
       if (!lang)
         lang = siteProfiles["github.com"].detectDiagramLanguageByElement(el);
       return {
