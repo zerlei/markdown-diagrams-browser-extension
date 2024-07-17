@@ -2,7 +2,7 @@
   "name": "Markdown Diagrams(CP)",
   "description": "It's a copy of Markdown Diagrams(https://github.com/marcozaccari/markdown-diagrams-browser-extension),I modified it for my usage",
   "version": "0.1",
-  "manifest_version": 1,
+  "manifest_version": 2,
   
   "permissions": [
     "storage",
