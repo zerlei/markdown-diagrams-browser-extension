@@ -49,6 +49,10 @@ var diagramsCodeLookup = {
         matchHeaderStr: "@start",
         reqType: "plantuml",
     },
+    // github plantuml
+    "wsd":{
+        reqType: "plantuml",
+    },
 
     // Mermaid https://github.com/knsv/mermaid
     "mermaid": {  
